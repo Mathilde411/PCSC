@@ -1,0 +1,44 @@
+[
+  {
+    "directory": "/home/mathilde/CLionProjects/PCSC++",
+    "command": "clang++ -MD -MF .cutekit/build/host-x86_64-c1fe10e7-c5aefba8/pcsc-asn1-ber/__obj__/encoder.cpp.o.d -std=gnu++2c -Wall -Wextra -Werror -fcolor-diagnostics -I.cutekit/generated -I.cutekit/generated/__aliases__ -Isrc -D__ck_abi_unknown__ -D__ck_abi_value=unknown -D__ck_arch_value=x86_64 -D__ck_arch_x86_64__ -D__ck_bits_unknown__ -D__ck_bits_value=unknown -D__ck_host__ -D__ck_sys_encoding_utf8__ -D__ck_sys_encoding_value=utf8 -D__ck_sys_line_ending_lf__ -D__ck_sys_line_ending_value=lf -D__ck_sys_linux__ -D__ck_sys_path_separator_slash__ -D__ck_sys_path_separator_value=slash -D__ck_sys_terminal_ansi__ -D__ck_sys_terminal_value=ansi -D__ck_sys_value=linux -D__ck_toolchain_clang__ -D__ck_toolchain_value=clang -D__ck_version_v0_1_0__ -D__ck_version_value=v0.1.0 @.cutekit/build/host-x86_64-c1fe10e7-c5aefba8/pcsc-asn1-ber/__obj__/encoder.cpp.o.modmap -c -o .cutekit/build/host-x86_64-c1fe10e7-c5aefba8/pcsc-asn1-ber/__obj__/encoder.cpp.o src/pcsc-asn1-ber/encoder.cpp",
+    "file": "src/pcsc-asn1-ber/encoder.cpp",
+    "output": ".cutekit/build/host-x86_64-c1fe10e7-c5aefba8/pcsc-asn1-ber/__obj__/encoder.cpp.o"
+  },
+  {
+    "directory": "/home/mathilde/CLionProjects/PCSC++",
+    "command": "clang++ -MD -MF .cutekit/build/host-x86_64-c1fe10e7-c5aefba8/pcsc-asn1-ber/__obj__/mod.cpp.o.d -std=gnu++2c -Wall -Wextra -Werror -fcolor-diagnostics -I.cutekit/generated -I.cutekit/generated/__aliases__ -Isrc -D__ck_abi_unknown__ -D__ck_abi_value=unknown -D__ck_arch_value=x86_64 -D__ck_arch_x86_64__ -D__ck_bits_unknown__ -D__ck_bits_value=unknown -D__ck_host__ -D__ck_sys_encoding_utf8__ -D__ck_sys_encoding_value=utf8 -D__ck_sys_line_ending_lf__ -D__ck_sys_line_ending_value=lf -D__ck_sys_linux__ -D__ck_sys_path_separator_slash__ -D__ck_sys_path_separator_value=slash -D__ck_sys_terminal_ansi__ -D__ck_sys_terminal_value=ansi -D__ck_sys_value=linux -D__ck_toolchain_clang__ -D__ck_toolchain_value=clang -D__ck_version_v0_1_0__ -D__ck_version_value=v0.1.0 @.cutekit/build/host-x86_64-c1fe10e7-c5aefba8/pcsc-asn1-ber/__obj__/mod.cpp.o.modmap -c -o .cutekit/build/host-x86_64-c1fe10e7-c5aefba8/pcsc-asn1-ber/__obj__/mod.cpp.o src/pcsc-asn1-ber/mod.cpp",
+    "file": "src/pcsc-asn1-ber/mod.cpp",
+    "output": ".cutekit/build/host-x86_64-c1fe10e7-c5aefba8/pcsc-asn1-ber/__obj__/mod.cpp.o"
+  },
+  {
+    "directory": "/home/mathilde/CLionProjects/PCSC++",
+    "command": "clang++ -MD -MF .cutekit/build/host-x86_64-c1fe10e7-c5aefba8/pcsc-asn1/__obj__/encoder.cpp.o.d -std=gnu++2c -Wall -Wextra -Werror -fcolor-diagnostics -I.cutekit/generated -I.cutekit/generated/__aliases__ -Isrc -D__ck_abi_unknown__ -D__ck_abi_value=unknown -D__ck_arch_value=x86_64 -D__ck_arch_x86_64__ -D__ck_bits_unknown__ -D__ck_bits_value=unknown -D__ck_host__ -D__ck_sys_encoding_utf8__ -D__ck_sys_encoding_value=utf8 -D__ck_sys_line_ending_lf__ -D__ck_sys_line_ending_value=lf -D__ck_sys_linux__ -D__ck_sys_path_separator_slash__ -D__ck_sys_path_separator_value=slash -D__ck_sys_terminal_ansi__ -D__ck_sys_terminal_value=ansi -D__ck_sys_value=linux -D__ck_toolchain_clang__ -D__ck_toolchain_value=clang -D__ck_version_v0_1_0__ -D__ck_version_value=v0.1.0 @.cutekit/build/host-x86_64-c1fe10e7-c5aefba8/pcsc-asn1/__obj__/encoder.cpp.o.modmap -c -o .cutekit/build/host-x86_64-c1fe10e7-c5aefba8/pcsc-asn1/__obj__/encoder.cpp.o src/pcsc-asn1/encoder.cpp",
+    "file": "src/pcsc-asn1/encoder.cpp",
+    "output": ".cutekit/build/host-x86_64-c1fe10e7-c5aefba8/pcsc-asn1/__obj__/encoder.cpp.o"
+  },
+  {
+    "directory": "/home/mathilde/CLionProjects/PCSC++",
+    "command": "clang++ -MD -MF .cutekit/build/host-x86_64-c1fe10e7-c5aefba8/pcsc-asn1/__obj__/mod.cpp.o.d -std=gnu++2c -Wall -Wextra -Werror -fcolor-diagnostics -I.cutekit/generated -I.cutekit/generated/__aliases__ -Isrc -D__ck_abi_unknown__ -D__ck_abi_value=unknown -D__ck_arch_value=x86_64 -D__ck_arch_x86_64__ -D__ck_bits_unknown__ -D__ck_bits_value=unknown -D__ck_host__ -D__ck_sys_encoding_utf8__ -D__ck_sys_encoding_value=utf8 -D__ck_sys_line_ending_lf__ -D__ck_sys_line_ending_value=lf -D__ck_sys_linux__ -D__ck_sys_path_separator_slash__ -D__ck_sys_path_separator_value=slash -D__ck_sys_terminal_ansi__ -D__ck_sys_terminal_value=ansi -D__ck_sys_value=linux -D__ck_toolchain_clang__ -D__ck_toolchain_value=clang -D__ck_version_v0_1_0__ -D__ck_version_value=v0.1.0 @.cutekit/build/host-x86_64-c1fe10e7-c5aefba8/pcsc-asn1/__obj__/mod.cpp.o.modmap -c -o .cutekit/build/host-x86_64-c1fe10e7-c5aefba8/pcsc-asn1/__obj__/mod.cpp.o src/pcsc-asn1/mod.cpp",
+    "file": "src/pcsc-asn1/mod.cpp",
+    "output": ".cutekit/build/host-x86_64-c1fe10e7-c5aefba8/pcsc-asn1/__obj__/mod.cpp.o"
+  },
+  {
+    "directory": "/home/mathilde/CLionProjects/PCSC++",
+    "command": "clang++ -MD -MF .cutekit/build/host-x86_64-c1fe10e7-c5aefba8/pcsc-asn1/__obj__/types.cpp.o.d -std=gnu++2c -Wall -Wextra -Werror -fcolor-diagnostics -I.cutekit/generated -I.cutekit/generated/__aliases__ -Isrc -D__ck_abi_unknown__ -D__ck_abi_value=unknown -D__ck_arch_value=x86_64 -D__ck_arch_x86_64__ -D__ck_bits_unknown__ -D__ck_bits_value=unknown -D__ck_host__ -D__ck_sys_encoding_utf8__ -D__ck_sys_encoding_value=utf8 -D__ck_sys_line_ending_lf__ -D__ck_sys_line_ending_value=lf -D__ck_sys_linux__ -D__ck_sys_path_separator_slash__ -D__ck_sys_path_separator_value=slash -D__ck_sys_terminal_ansi__ -D__ck_sys_terminal_value=ansi -D__ck_sys_value=linux -D__ck_toolchain_clang__ -D__ck_toolchain_value=clang -D__ck_version_v0_1_0__ -D__ck_version_value=v0.1.0 @.cutekit/build/host-x86_64-c1fe10e7-c5aefba8/pcsc-asn1/__obj__/types.cpp.o.modmap -c -o .cutekit/build/host-x86_64-c1fe10e7-c5aefba8/pcsc-asn1/__obj__/types.cpp.o src/pcsc-asn1/types.cpp",
+    "file": "src/pcsc-asn1/types.cpp",
+    "output": ".cutekit/build/host-x86_64-c1fe10e7-c5aefba8/pcsc-asn1/__obj__/types.cpp.o"
+  },
+  {
+    "directory": "/home/mathilde/CLionProjects/PCSC++",
+    "command": "clang++ -MD -MF .cutekit/build/host-x86_64-c1fe10e7-c5aefba8/pcsc-base/__obj__/mod.cpp.o.d -std=gnu++2c -Wall -Wextra -Werror -fcolor-diagnostics -I.cutekit/generated -I.cutekit/generated/__aliases__ -Isrc -D__ck_abi_unknown__ -D__ck_abi_value=unknown -D__ck_arch_value=x86_64 -D__ck_arch_x86_64__ -D__ck_bits_unknown__ -D__ck_bits_value=unknown -D__ck_host__ -D__ck_sys_encoding_utf8__ -D__ck_sys_encoding_value=utf8 -D__ck_sys_line_ending_lf__ -D__ck_sys_line_ending_value=lf -D__ck_sys_linux__ -D__ck_sys_path_separator_slash__ -D__ck_sys_path_separator_value=slash -D__ck_sys_terminal_ansi__ -D__ck_sys_terminal_value=ansi -D__ck_sys_value=linux -D__ck_toolchain_clang__ -D__ck_toolchain_value=clang -D__ck_version_v0_1_0__ -D__ck_version_value=v0.1.0 @.cutekit/build/host-x86_64-c1fe10e7-c5aefba8/pcsc-base/__obj__/mod.cpp.o.modmap -c -o .cutekit/build/host-x86_64-c1fe10e7-c5aefba8/pcsc-base/__obj__/mod.cpp.o src/pcsc-base/mod.cpp",
+    "file": "src/pcsc-base/mod.cpp",
+    "output": ".cutekit/build/host-x86_64-c1fe10e7-c5aefba8/pcsc-base/__obj__/mod.cpp.o"
+  },
+  {
+    "directory": "/home/mathilde/CLionProjects/PCSC++",
+    "command": "clang++ -MD -MF .cutekit/build/host-x86_64-c1fe10e7-c5aefba8/pcsc-base/__obj__/tree.cpp.o.d -std=gnu++2c -Wall -Wextra -Werror -fcolor-diagnostics -I.cutekit/generated -I.cutekit/generated/__aliases__ -Isrc -D__ck_abi_unknown__ -D__ck_abi_value=unknown -D__ck_arch_value=x86_64 -D__ck_arch_x86_64__ -D__ck_bits_unknown__ -D__ck_bits_value=unknown -D__ck_host__ -D__ck_sys_encoding_utf8__ -D__ck_sys_encoding_value=utf8 -D__ck_sys_line_ending_lf__ -D__ck_sys_line_ending_value=lf -D__ck_sys_linux__ -D__ck_sys_path_separator_slash__ -D__ck_sys_path_separator_value=slash -D__ck_sys_terminal_ansi__ -D__ck_sys_terminal_value=ansi -D__ck_sys_value=linux -D__ck_toolchain_clang__ -D__ck_toolchain_value=clang -D__ck_version_v0_1_0__ -D__ck_version_value=v0.1.0 @.cutekit/build/host-x86_64-c1fe10e7-c5aefba8/pcsc-base/__obj__/tree.cpp.o.modmap -c -o .cutekit/build/host-x86_64-c1fe10e7-c5aefba8/pcsc-base/__obj__/tree.cpp.o src/pcsc-base/tree.cpp",
+    "file": "src/pcsc-base/tree.cpp",
+    "output": ".cutekit/build/host-x86_64-c1fe10e7-c5aefba8/pcsc-base/__obj__/tree.cpp.o"
+  }
+]

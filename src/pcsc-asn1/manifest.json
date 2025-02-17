@@ -1,0 +1,9 @@
+{
+  "$schema": "https://schemas.cute.engineering/stable/cutekit.manifest.component.v1",
+  "id": "pcsc-asn1",
+  "description": "The PCSC++ ASN.1 library",
+  "type": "lib",
+  "requires": [
+    "pcsc-base"
+  ]
+}
