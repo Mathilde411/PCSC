@@ -11,4 +11,5 @@ struct Node {
     std::vector<std::unique_ptr<Node>> children;
     std::unique_ptr<T> data;
 };
+
 }

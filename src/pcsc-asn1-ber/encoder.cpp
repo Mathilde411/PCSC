@@ -4,12 +4,15 @@ module;
 #include <vector>
 #include <memory>
 
+#define func auto
+
 export module PCSC.ASN1.BER:encoder;
 
 import PCSC.ASN1;
 import PCSC.Base;
 
 namespace PCSC::ASN1::BER {
+
 enum Class : uint8_t {
     UNIVERSAL = 0b00,
     APPLICATION = 0b01,
@@ -29,7 +32,7 @@ struct BERValue {
     std::vector<uint8_t> data;
 };
 
-export class BEREncoder : Encoder<BERValue, std::vector<uint8_t>> {
+export class BEREncoder : public Encoder<BERValue, std::vector<uint8_t>> {
 private:
     static uint8_t readIter(std::vector<uint8_t>::const_iterator& iter, const std::vector<uint8_t>::const_iterator end) {
         const uint8_t result = *iter;
@@ -82,10 +85,11 @@ private:
         return result;
     }
 
+
     std::unique_ptr<BERValue> importHeader(
         std::vector<uint8_t>::const_iterator& cbegin,
         const std::vector<uint8_t>::const_iterator& cend
-    ) {
+    )  {
         uint8_t byte = readIter(cbegin, cend);
         uint64_t tag = byte & 0b00011111;
         byte >>= 5;
@@ -104,7 +108,7 @@ private:
         return std::make_unique<BERValue>(clazz, type, tag);
     }
 
-    std::unique_ptr<Node<BERValue>> importTree(const std::vector<uint8_t>& data) override {
+    std::unique_ptr<Node<BERValue>> importTree(const std::vector<uint8_t>& data) {
         auto cbegin = data.cbegin();
         return recImport(cbegin, data.cend());
     }
